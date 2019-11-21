@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { login } from '../../services/userServices'
+import { login } from '../../../services/userServices'
 
 class LoginPage extends Component {
   constructor() {
@@ -27,7 +27,7 @@ class LoginPage extends Component {
 
     login(user).then(res => {
       if (!res.error) {
-        this.props.history.push(`/profile`)
+        this.props.history.push(`/about`)
       }
     })
   }
