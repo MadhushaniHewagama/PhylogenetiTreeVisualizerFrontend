@@ -1,5 +1,3 @@
-# ReactJS, MySQL, Flask Todo List
-A todo list sample application with MySQL, ReactJS, Flask
 
 # Flask install
 pip install flask
